@@ -1,0 +1,10 @@
+function setup()
+{
+createCanvas(600,400);
+}
+function draw()
+{
+// ellipse
+fill(200,150,180);
+ellipse(mouseX,mouseY,100,100);
+}
