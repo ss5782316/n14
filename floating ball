@@ -1,1 +1,21 @@
+var circleX=0;
+function setup();
+{
+createCanvas(600,400);
+}
+
+function draw()
+{
+// background
+background(250,180,120);
+fill(120,140,160);
+stroke(0,0,255);
+
+// ellipse
+ellipse(circleX,180,60,60);
+
+circleX=circleX + 5;
+
+}
+
 
